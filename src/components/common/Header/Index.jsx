@@ -1,14 +1,17 @@
 import { Contents, LogoZone, Wrapper, Nav } from './styled';
-
-const Header = () => {
+import logo from '../../../assets/logo/logo.svg';
+const Header = ({ userData }) => {
   return (
     <Wrapper>
       <Contents>
-        <LogoZone>로고 자리</LogoZone>
+        <LogoZone>
+          <img src={logo} alt="로고" />
+        </LogoZone>
         <Nav>
           <ul>
-            <li>메뉴 1</li>
-            <li>메뉴 2</li>
+            <li>ToDoList</li>
+            <li>Diary</li>
+            <li>{userData}</li>
           </ul>
         </Nav>
       </Contents>

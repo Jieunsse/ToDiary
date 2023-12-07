@@ -1,9 +1,9 @@
-import Layout from './components/Layout/Index';
+import SignIn from './components/common/SignIn/Index';
 
 const App = () => {
   return (
     <>
-      <Layout>안녕</Layout>
+      <SignIn />
     </>
   );
 };
