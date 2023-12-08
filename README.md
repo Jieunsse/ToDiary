@@ -12,6 +12,7 @@
 
 - React
 - React Router
+- React Icons
 - Eslint
 - Prettier
 - Firebase

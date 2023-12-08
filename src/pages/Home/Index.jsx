@@ -1,7 +1,12 @@
+import Layout from '../../components/Layout/Index';
+import TodoApp from '../../components/TodoApp/App/Index';
+
 const Home = () => {
   return (
     <div>
-      <div>HOME</div>
+      <Layout> 
+        <TodoApp/>
+      </Layout>
     </div>
   );
 };

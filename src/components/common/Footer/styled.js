@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.footer`
   height: 100px;
   margin-top: auto;
-  background-color: #dde0ea;
+  background-color: #363636;
 `;
 
 export const Contents = styled.div`
