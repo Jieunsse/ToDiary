@@ -1,11 +1,19 @@
-import SignIn from './components/common/SignIn/Index';
+import React from 'react';
+import TodoList from './components/TodoApp/TodoList/Index';
+import TodoHeader from './components/TodoApp/Header/Index';
+import { useState } from 'react';
 
-const App = () => {
+const filters = ['all', 'active', 'completed'];
+
+export default function App() {
+
+  const [ filter, setFilter ] = useState(filters[0]);
+
   return (
-    <>
-      <SignIn />
-    </>
+    <div>
+      <TodoHeader filters={filters} filter={filter} onFilterChange={setFilter}/>
+      <TodoList filter={filter}/>
+    </div>
   );
-};
+}
 
-export default App;

@@ -13,9 +13,12 @@
     "firebase": "^10.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.20.1",
-    "styled-components": "^6.1.1"
+    "styled-components": "^6.1.1",
+    "uuid": "^9.0.1",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
@@ -24,7 +27,7 @@
     "@typescript-eslint/parser": "latest",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint": "^8.53.0",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-react": "latest",
     "eslint-plugin-react-hooks": "^4.6.0",
