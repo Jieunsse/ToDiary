@@ -5,16 +5,14 @@
 
 - Yarn
 - Vite
-- Node
-- MongoDB
+- React
+- Firebase
 
 사용된 라이브러리 : 
 
-- React
 - React Router
 - React Icons
 - Eslint
 - Prettier
-- Firebase
 - Styled-Components
 
