@@ -1,15 +1,16 @@
 import React from 'react';
+import { Header, Ul, Li, Button } from './styled.js';
 
 export default function TodoHeader({ filters, filter, onFilterChange }) {
   return (
-    <header>
-      <ul>
+    <Header>
+      <Ul>
         {filters.map((value, index) => (
-          <li key={index}>
-            <button onClick={() => onFilterChange(value)}>{value}</button>
-          </li>
+          <Li key={index}>
+            <Button onClick={() => onFilterChange(value)}>{value}</Button>
+          </Li>
         ))}
-      </ul>
-    </header>
+      </Ul>
+    </Header>
   );
 }

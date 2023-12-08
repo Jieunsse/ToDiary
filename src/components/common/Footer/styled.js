@@ -19,4 +19,5 @@ export const Contents = styled.div`
 export const Title = styled.h2`
   font-weight: 600;
   font-size: 20px;
+  font-family: 'Nanum Gothic Coding', monospace;
 `;

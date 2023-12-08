@@ -1,4 +1,4 @@
-import { Contents, LogoZone, Wrapper, Nav, Button } from './styled';
+import { Contents, LogoZone, Wrapper, Nav, Button, Li } from './styled';
 import logo from '../../../assets/logo/logo.svg';
 import { useNavigate } from 'react-router-dom';
 
@@ -23,8 +23,8 @@ const Header = ({ userData }) => {
         </LogoZone>
         <Nav>
           <ul>
-            <li>ToDoList</li>
-            <li>Diary</li>
+            <Li onClick={handleClick}>ToDoList</Li>
+            <Li onClick={handleClick}>Diary</Li>
           </ul>
         </Nav>
       </Contents>

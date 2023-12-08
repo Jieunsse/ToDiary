@@ -6,7 +6,7 @@ export const Wrapper = styled.header`
   top: 0;
   width: 100%;
   height: 80px;
-  background-color: #dde0ea;
+  background-color: #efefef;
 `;
 
 export const Contents = styled.div`
@@ -28,6 +28,8 @@ export const Nav = styled.nav`
 
   li {
     font-size: 20px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    
   }
   li + li {
     margin-left: 30px;
@@ -42,5 +44,9 @@ export const LogoZone = styled.div`
 export const Button = styled.button`
   border: 0;
   background-color: transparent;
+  cursor: pointer;
+`;
+
+export const Li = styled.li`
   cursor: pointer;
 `;
